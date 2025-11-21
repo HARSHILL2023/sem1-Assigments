@@ -2,7 +2,7 @@
 int main(){
 
     int n;
-    int p=9;
+   
     scanf("%d",&n);
     int m=1;
     for(int i=1;i<=n;i++){
@@ -14,6 +14,7 @@ int main(){
         }
         printf("\n");
         m=m+2;
+        
     }
     for(int i=1;i<n;i++){
         for(int f=0;f<=i-1;f++){
@@ -23,7 +24,7 @@ int main(){
             printf("*");
         }
         printf("\n");
-        p=p-2;
+       
     }
 
 
